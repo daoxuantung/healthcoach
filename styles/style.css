@@ -144,7 +144,12 @@
     background-color: #FFF;
 }
 
-.slide > .img {
+
+.slide {
+    width: 100%;
+    height: 70rem;
+    background-size: cover;
+    background-position: center;
     animation: animation 3s;
 }
 
