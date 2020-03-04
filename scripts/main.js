@@ -27,5 +27,5 @@ function showSlides() {
         slideIndex = 0;
     }    
     //tự động chuyển đổi slide sau 4s
-    setTimeout(showSlides, 5000);
+    setTimeout(showSlides, 4000);
 }
