@@ -1,6 +1,7 @@
 //khai báo biến slideIndex đại diện cho slide hiện tại
 var slideIndex;
 //mặc định hiển thị slide đầu tiên 
+
 showSlides(slideIndex = 0);
 
 function currentSlide(n) {
@@ -25,7 +26,7 @@ function showSlides() {
     //nếu đang ở slide cuối cùng thì chuyển về slide đầu
     if (slideIndex > slides.length - 1) {
         slideIndex = 0;
-    }    
-    //tự động chuyển đổi slide sau 4s
-    setTimeout(showSlides, 4000);
+    }   
 }
+//tự động chuyển đổi slide sau 4s
+setInterval(showSlides,  4000);
