@@ -663,6 +663,90 @@ div .select-option:focus {
     left: 0;
 }
 
+.price-section {
+    width: 100%;
+    height: 90rem;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fd;
+}
+
+.price-card {
+    background-color: #FFF;
+    text-align: center;
+    margin: 0 1.5rem;
+}
+
+.price-card .title-card {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #000;
+    margin-top: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.price-card .content-card {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: gray;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+
+.price-card .price-number{
+    font-size: 6rem;
+    font-weight: 350;
+    color: #000;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.price-card .price-number > span {
+    font-size: 2.2rem;
+    font-weight: 350;
+    color: gray;
+    position: absolute;
+    top: 20%;
+    left: -20%;
+}
+
+.price-card .entitlement {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: gray;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    position: relative;
+}
+
+.price-card .entitlement > i {
+    color: #a3cb4c;
+    margin-right: 0.5rem;
+}
+
+.price-card > button {
+    font-size: 1.1rem;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: #1089ff;
+    padding: 1.5rem 2rem;
+    border: 1px solid #1089ff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.price-card > button:hover {
+    color: #1089ff;
+    background-color: transparent;
+}
+
 @keyframes animation {
     from {
         opacity: 0;
